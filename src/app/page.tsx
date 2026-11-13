@@ -3,6 +3,7 @@ import { AboutSection } from "@/components/home/about-section";
 import { CommunitySection } from "@/components/home/community-section";
 import { HeroSection } from "@/components/home/hero-section";
 import { LearningSection } from "@/components/home/learning-section";
+import { MissionVisionSection } from "@/components/home/mission-vision-section";
 import { ProgramsSection } from "@/components/home/programs-section";
 import { StoriesSection } from "@/components/home/stories-section";
 import { SiteFooter } from "@/components/site-footer";
@@ -17,6 +18,7 @@ export default function Home() {
         <ProgramsSection />
         <AboutSection />
         <CommunitySection />
+        <MissionVisionSection />
         <LearningSection />
         <StoriesSection />
         <section className="bg-soft-blue px-6 py-12 sm:px-10 lg:px-12">
