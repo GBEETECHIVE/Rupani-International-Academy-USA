@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-ink: #07172b;
+  --color-gold: #c99a3b;
+  --color-paper: #faf8f2;
+  --color-soft-blue: #e8f0ef;
+  --font-display: Georgia, "Times New Roman", serif;
+}
