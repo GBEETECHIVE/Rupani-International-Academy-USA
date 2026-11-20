@@ -2,7 +2,7 @@
 
 import { useState, type FormEvent } from "react";
 
-const TO = "ghazalasiyad96@gmail.com";
+const TO = "info@rupaniacademyusa.com";
 const ENDPOINT = `https://formsubmit.co/ajax/${TO}`;
 
 const referralOptions = [
