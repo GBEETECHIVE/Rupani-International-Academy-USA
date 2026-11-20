@@ -76,16 +76,16 @@ export function SiteFooter() {
       <div className="px-6 pb-8 pt-10 sm:px-10 lg:px-12">
         <div className="mx-auto grid max-w-7xl gap-10 md:grid-cols-[1.3fr_3fr]">
           <Link
-            href="#"
+            href="/"
             aria-label="Rupani International Academy home"
             className="flex h-fit items-center gap-3"
           >
-            <span className="relative h-16 w-32 shrink-0 overflow-hidden rounded-md bg-white p-1">
+            <span className="relative h-24 w-48 shrink-0 overflow-hidden rounded-md bg-white p-1">
               <Image
-                src="/images/RDIlogo.png"
-                alt="Rupani Development Initiatives"
+                src="/images/logo.png"
+                alt="Rupani International Academy USA"
                 fill
-                sizes="128px"
+                sizes="192px"
                 className="object-contain p-1"
               />
             </span>

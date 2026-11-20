@@ -13,15 +13,15 @@ const navigation = [
 
 export function SiteHeader() {
   return (
-    <header className="relative z-10 bg-white">
+    <header className="sticky top-0 z-50 bg-white">
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-x-6 px-5 py-3 sm:px-8 lg:px-10">
-        <Link href="#" aria-label="Rupani International Academy home" className="flex items-center gap-2.5">
-          <span className="relative h-16 w-32 shrink-0">
+        <Link href="/" aria-label="Rupani International Academy home" className="flex items-center gap-2.5">
+          <span className="relative h-20 w-40 shrink-0">
             <Image
-              src="/images/RDIlogo.png"
-              alt="Rupani Development Initiatives"
+              src="/images/logo.png"
+              alt="Rupani International Academy USA"
               fill
-              sizes="128px"
+              sizes="160px"
               className="object-contain"
             />
           </span>
@@ -51,10 +51,10 @@ export function SiteHeader() {
         </div>
 
         <Link
-          href="#admissions"
+          href="/school-interest-form"
           className="rounded-full bg-gold px-5 py-2.5 text-sm font-bold uppercase tracking-wide text-ink transition-colors hover:bg-amber-400 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-ink"
         >
-          Apply now
+          School Interest Form
         </Link>
 
         <nav
